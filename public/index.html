@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="stopwatch.jpg" type="image/x-icon" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-green-900 text-center">
+    <h1 style="font-size: 3rem" class="font-bold text-white border-b-2">
+      RTime
+    </h1>
+    <section>
+      <p
+        id="time"
+        class="font-bold text-5xl m-10 p-10 border-2 rounded-full text-gray-200"
+      >
+        00 : 00 : 00
+      </p>
+      <button
+        class="
+          p-5
+          text-2xl
+          m-2
+          bg-gray-100
+          rounded-lg
+          hover:bg-gray-300
+          transition-all
+          px-10
+          font-extrabold
+        "
+        id="startStop"
+        onClick="startStop()"
+      >
+        Start
+      </button>
+      <button
+        class="
+          p-5
+          text-2xl
+          m-2
+          bg-gray-400
+          rounded-lg
+          hover:bg-gray-300
+          font-extrabold
+          transition-all
+        "
+        onClick="reset()"
+      >
+        Reset
+      </button>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
